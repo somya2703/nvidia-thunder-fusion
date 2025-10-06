@@ -15,4 +15,4 @@ def assert_allclose(a, b, tol=1e-3):
     if not torch.allclose(a, b, atol=tol, rtol=tol):
         diff = (a - b).abs().max().item()
         raise AssertionError(f"Outputs differ (max diff {diff:.6f})")
-    print("✅ Outputs match within tolerance.")
+    print(" Outputs match within tolerance.")

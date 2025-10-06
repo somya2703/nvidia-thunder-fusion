@@ -124,7 +124,7 @@ with open(json_path, "w") as f:
 with open(latest_path, "w") as f:
     json.dump(results, f, indent=4)
 
-print(f"✅ Results written to {json_path}")
+print(f" Results written to {json_path}")
 PY
 
 # ------------------------------------------------------------------------------
@@ -173,7 +173,7 @@ latest_json=$(ls -t "$SUMMARY_DIR"/benchmark_results_*.json 2>/dev/null | head -
 if [ -n "$latest_json" ]; then
     cat "$latest_json"
     echo "-------------------------------------"
-    echo "✅ All done! Results saved to:"
+    echo " All done! Results saved to:"
     echo "  $RESULTS_DIR"
     echo "Aggregated summary JSON:"
     echo "  $latest_json"

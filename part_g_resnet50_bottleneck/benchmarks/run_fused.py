@@ -58,7 +58,7 @@ def main():
     with open(RESULTS_FILE, "w") as f:
         json.dump(results, f, indent=4)
 
-    print(f"✅ Baseline model benchmark complete")
+    print(f" Baseline model benchmark complete")
     print(f"Latency per batch: {latency_ms:.2f} ms")
     print(f"Throughput: {throughput_img_s:.2f} images/s")
     print(f"Results written to {RESULTS_FILE}")

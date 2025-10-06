@@ -109,4 +109,4 @@ if os.path.exists(kernel_csv):
 else:
     print("[INFO] No profiling data found — skipping kernel summary.")
 
-print("\n✅ All analysis complete.")
+print("\n All analysis complete.")

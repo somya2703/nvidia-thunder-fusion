@@ -7,4 +7,4 @@ def test_forward_pass():
     x = torch.randn(2, 3, 224, 224, device="cuda")
     y = model(x)
     assert y.shape[-1] == 1000
-    print("Integration test passed ✅")
+    print("Integration test passed ")
