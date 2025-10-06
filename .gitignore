@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# CUDA / build artifacts
+part_g_resnet50_bottleneck/build/
+*.so
+*.o
+*.pt
+
+# Benchmark results / profiling / summary
+results/
+results_summary/
+*.json
+*.csv
+*.png
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
