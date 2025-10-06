@@ -70,7 +70,6 @@ pip install -r requirements.txt
 - numpy
 - matplotlib
 - seaborn
-- lark-parser
 - tabulate
 - markdown
 
@@ -138,12 +137,6 @@ Current outputs include:
 - **Profiler traces:** PyTorch fused model traces (`part_g_resnet50_bottleneck/benchmarks/results/profiling/fused_trace.json`)
 - **HTML Dashboard:** consolidated `report.html`
 
-Optional improvements:
-- Per-layer kernel timings
-- GPU utilization and memory consumption plots
-- Comparative results for multiple GPUs or configurations
-- Automated HTML dashboard generation with embedded plots and tables
-
 ---
 
 ## Dependencies
@@ -155,7 +148,6 @@ pandas
 numpy
 matplotlib
 seaborn
-lark-parser
 tabulate
 markdown
 ```
